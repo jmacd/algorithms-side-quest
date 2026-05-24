@@ -1,0 +1,16 @@
+{
+  "name": "algorithms-side-quest",
+  "private": true,
+  "scripts": {
+    "slides": "slidev slides.md --port 3030 --remote",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.15.2",
+    "@slidev/theme-default": "^0.25.0"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
