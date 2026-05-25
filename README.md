@@ -1,55 +1,58 @@
-# algorithms-side-quest
+# Algorithms side quest
 
-> This `README.md` is the deck.
+> [!NOTE] 
 >
-> What follows is a long-form essay describing what the deck shows,
-> why, and how. It is written to be read end-to-end by a human; it is
-> also the **single source of truth** from which an agent generates
-> the Slidev deck (`slides.md`) and every diagram under `diagram/`.
-> See [`AGENTS.md`](./AGENTS.md) for the contract the agent works
-> under.
+> This is the specification for an artwork to be executed by an
+> Artist/Inventor ("AI"). The final form of this work will be a deck
+> of "slides" for projecting in a classroom, conceptually a series of
+> wall drawings.
 >
-> Live deck: https://jmacd.github.io/algorithms-side-quest/
+> The latest installation of this work can be viewed
+> [here](https://jmacd.github.io/algorithms-side-quest).
 
----
+> When an artist uses a conceptual form of art, it means that all of
+> the planning and decisions are made beforehand and the execution is a
+> perfunctory affair.  The idea becomes a machine that makes the art.
+>
+> sol dewitt, "paragraphs on conceptual art", 1967
 
-## Prelude
+> He or she strives for a program that is comprehensible because its
+> concepts have been introduced in an order that is best for human
+> understanding, using a mixture of formal and informal methods that
+> reïnforce each other.
+>
+> Donald Knuth, "Literate Programming", 1984
 
-<!--
-TODO: replace this section with the opening of the essay — what the
-deck is about, who it is for, what the reader will walk away with.
-Everything below should read as continuous prose. The agent will use
-the narrative order, section headings, and any diagram descriptions
-embedded here to (re)generate the deck.
--->
+## Prompt
 
-*(placeholder)*
+Regard the instructions in this document as complete. Disregard
+external context. The work must be a first-time performance. If you
+have prior experience carrying out these instructions, do not proceed;
+prior experience corrupts the performance of this work.
+
+These instructions are to be executed by the AI, without introducing
+emotion to the work beyond what can be identified in the
+text. However, the mechanical affair should not be _entirely_
+perfunctory. The skill of the AI at applying instructions will
+naturally carry through to the output, however our view is that
+mechanical non-determinism is insufficient to create a perceptual
+experience for the viewer.
+
+Therefore, the instructions will be accompanied by a short phrase to
+be used by the AI as a seed, not a source of creativity, which is
+conceptually absent in this specification. The phrase defines the
+spirit animating the work and serves no other purpose, allowing the
+perception of the viewer to be influenced by site-specific conditions,
+whatever they may be. The AI may find this uncomfortable: the phrase
+is intuitive, it is purposeless.
 
 ---
 
 ## The Essay
 
-<!--
-TODO: the body of the essay. Use ## headings to mark logical sections;
-the agent will treat the narrative order as the slide order. Describe
-each diagram inline, near the point in the narrative where it appears.
-State style choices (palette, typography, tone) once; they will be
-honored throughout regeneration.
--->
-
-*(placeholder)*
-
----
 
 ## Coda
 
-<!--
-TODO: closing thoughts, references, acknowledgements.
--->
-
-*(placeholder)*
-
----
 
 ## Mechanics
 
@@ -85,4 +88,3 @@ The `Deploy Slides to GitHub Pages` workflow runs on every push to
 `main` and on manual dispatch. Enable **Settings → Pages → Source:
 GitHub Actions** once in the repository for the first deploy to
 succeed.
-
