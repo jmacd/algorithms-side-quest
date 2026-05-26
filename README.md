@@ -72,7 +72,8 @@ a spot illustration, a piece of line art as described in the section
 specifications. While the spot illustrations are unrelated to the
 section material, they will be visually similar across sections.
 
-Within each section, slides have no header text. 
+Within each section, slides have a header of text listed after each
+`¶` symbol.
 
 The main subject of each slide will be sparing and occupy the center
 of the screen. 
@@ -249,9 +250,41 @@ and below work out the expansion of place values
 
 (Animation: a 3-decimal-digit register and a 8-binary-digit register
 each start at all zeros, then every half second increment the count
-and display the decimal and binary values in the register. Stop at 255)
+and display the decimal and binary values in the register. Stop at
+255.)
 
-¶ Counting to 4294967296
+¶ Counting to 4,294,967,296
+
+With a four byte value (32 bits), we can count to over four billion.
+
+2^32 = 4,294,967,296
+
+(Using the same register diagram as previously, draw four bytes
+with random 0-1 values side by side, slight spacing between the
+bytes.)
+
+¶ Counting quintillions
+
+Rule of thumb: ten bits holds slightly more information than three
+decimal digits.
+
+```
+2^10 = 1,024
+10^3 = 1,000
+```
+
+Therefore,
+
+10 bits ≈ 1,000 
+
+30 bits ≈ 1,000,000,000
+32 bits ≈ 4,000,000,000
+
+60 bits ≈ 1,000,000,000,000,000,000
+64 bits ≈ 16,000,000,000,000,000,000
+
+2^64 = 18,446,744,073,709,551,616
+
 
 ## Spot illustrations
 
