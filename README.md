@@ -273,18 +273,164 @@ decimal digits.
 10^3 = 1,000
 ```
 
-Therefore,
+We say
 
 10 bits ≈ 1,000 
 
 30 bits ≈ 1,000,000,000
-32 bits ≈ 4,000,000,000
+32 bits ≈ 1,000,000,000 * 2^2
 
 60 bits ≈ 1,000,000,000,000,000,000
-64 bits ≈ 16,000,000,000,000,000,000
+64 bits ≈ 1,000,000,000,000,000,000 * 2^4
 
 2^64 = 18,446,744,073,709,551,616
 
+## Change the problem
+
+Computer scientists like to classify problems into groups
+that are similar.
+
+¶ Solve one problem in a group...
+
+There is a famous problem called "Travelling Salesman", no known fast
+algorithm, the best we know how to do "try every combination".
+
+(Illustration: a road network with 5 cities and all the roads
+connecting them with a hypothetical shortest circuit.)
+
+¶ Solve them all
+
+If you find a fast solution for Travelling Salesman, you have a fast
+solution for Sudoku puzzles. There are thousands of problems in this
+class.
+
+(Illustration: A Sudoku game board half filled in.)
+
+¶ Euclidean algorithm
+
+Around 300 BC, Euclid published a greatest-common divisor algorithm.
+
+```
+// Compute the greatest common divisor of two numbers.
+func gcd2(a, b int) int {
+    if b == 0 {
+        return a
+    }
+    if a == 0 {
+        return b
+    }
+    if a > b {
+        return gcd2(a-b, b)
+    }
+    return gcd2(a, b-a)
+}
+```
+
+This is a recursive algorithm.
+
+¶ Without pennies
+
+The counting change problem in our case has a common divisor 5.
+
+```
+// Compute the greatest common divisor of N numbers.
+func gcdN(a []int) int {
+	if len(a) < 2 {
+		return a[0]
+	}
+	return gcd2(a[0], gcdN(a[1:]))
+}
+```
+
+Counting $1.00 with 5, 10, and 25 coins 
+equals
+counting $0.20 with 1, 2, and 5 cent coins.
+
+## Counting from zero
+
+Computer programmers like to count zero as the first number.
+It's not for everyone, but if you ask me to number two things, 
+I'll give you zero and one.
+
+¶ How many ways to make zero?
+
+Ways to make $0.00 with 0 different coins? One.
+Ways to make $0.00 with 1 different coins? One.
+Ways to make $0.00 with 2 different coins? One.
+
+This is an axiom. ("All empty sets are the same")
+
+¶ All pennies
+
+How many ways to make $0.20 with all pennies? One.
+How many ways to make $0.19 with all pennies? One.
+...
+How many ways to make $0.01 with all pennies? One.
+How many ways to make $0.00 with all pennies? One.
+
+¶ All 5 cents
+
+How many ways to make $0.00 with all 5 cent coins? One.
+How many ways to make $0.01 with all 5 cent coins? Zero.
+How many ways to make $0.02 with all 5 cent coins? Zero.
+How many ways to make $0.03 with all 5 cent coins? Zero.
+How many ways to make $0.04 with all 5 cent coins? Zero.
+How many ways to make $0.05 with all 5 cent coins? One.
+
+¶ Row formation
+
+(Illustration: single row with 21 columns, above each
+cell labeled 0 through 20; to the left of the row, the
+label is 5 cents; cells 0, 5, 10, 15, and 20 all have a 
+1, other cells are 0)
+
+¶ Variables
+
+A = amount
+K = number of existing coins
+N = count of ways to make A with K coins
+C = value of a K+1th coin
+
+¶ Recursion relation in words
+
+As I add the coin C as the next coin,
+say I have N ways to make A with K coins,
+and I have N' ways to make A' with K+1 coins.
+
+Now, let A' + C = A.
+
+(Illustration: we have two rows in a dynamic programming problem,
+three columns; first row labeled K coins, second row labeled K+1
+coins; first column title A', third column title A, first row third
+column value N, second row first column value N', an arrow labeled C
+from N' right two cells pointing to second row third column,
+indicating that A'+C = A)
+
+¶ Recursion relation diagram
+
+We're counting paths from the top left to the right bottom. This is a
+class of algorithms called "dynamic programming".
+
+(Illustration: now we have 3 rows and 21 columns of cells but no
+labels; the first column is all 1s; using colored arrows, connect the
+first row first cell to its neighbor, then again twice, so we have
+three arrows from column 1 to 4; then an arrow straight down, column 4
+row 1 to row 2; then three arrows stepping right but this time by two
+cells at a time; then one more down arrow, then two more right arrows
+this time 5 cells at a time; this illustrates the dynamic program
+where we count 4 1-cent coins, 3 2-cent coins, and 2 5-cent coins to
+reach 20.)
+
+¶ Recursion relation in words (again)
+
+In the row above: count to A without the new coin C is N
+In the row below: count to A' with the new coin C is N'
+With: A'+C = A
+Then: count to A with the new coin is N+N'.
+
+(Illustation: similar to two slides back, now we can fill in N' at A'
+in the second row, N at A in the first row, and N+N' at A in the
+second row. Two arrows indicating the parts of the sum.)
 
 ## Spot illustrations
 
@@ -306,9 +452,11 @@ every left-hand turn until it reaches the end.
 Counting exercises: person in front of chalkboard with `n! = n * (n - 1)!`
 and thinking expression.
 
-## Coda
+Change the problem: a pile of coins.
 
-_placeholder_
+Counting from zero: zoom in on a dynamic programming problem, the grid
+with an arrow from (x-1,y) to (x,y) and second arrow from (x,y-1) to
+(x,y).
 
 ## Mechanics
 
