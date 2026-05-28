@@ -53,7 +53,8 @@ section: 'I ❤️ Algorithms'
 
 <div class="asq-stage">
   <div class="asq-large">There's an <span class="asq-accent">algorithm</span>.</div>
-  <img class="asq-figure-half" src="./diagram/out/03-al-khwarizmi.svg" alt="al-Khwarizmi manuscript card" />
+  <img class="asq-figure-half" src="./diagram/static/algebra-of-mohammed-ben-musa.png" alt="A page from The Algebra of Mohammed ben Musa (1831 facsimile)" />
+  <div class="asq-credit">A page from <em>The Algebra of Mohammed ben Musa</em>, Fredrick Rosen, 1831 — public domain, via Wikimedia Commons</div>
 </div>
 
 ---
@@ -62,7 +63,8 @@ section: 'I ❤️ Algorithms'
 
 <div class="asq-stage">
   <div class="asq-large">An algorithm is…</div>
-  <img class="asq-figure-half" src="./diagram/out/04-gcd-subtractions.svg" alt="GCD by successive subtraction" />
+  <img class="asq-figure-half" src="./diagram/static/gcd-through-successive-subtractions.svg" alt="GCD by successive subtraction — flow chart" />
+  <div class="asq-credit">“GCD through successive subtractions” by Arthur Baelde — public domain, via Wikimedia Commons</div>
 </div>
 
 ---
@@ -309,9 +311,14 @@ section: 'Counting from zero'
 ---
 
 <div class="asq-stage">
-  <div class="asq-medium asq-mono">ways to make $0.00 with <span class="asq-accent">0</span> kinds of coins?   <span class="asq-accent">1</span></div>
-  <div class="asq-medium asq-mono">ways to make $0.00 with <span class="asq-accent">1</span> kind of coin?   <span class="asq-accent">1</span></div>
-  <div class="asq-medium asq-mono">ways to make $0.00 with <span class="asq-accent">2</span> kinds of coins?   <span class="asq-accent">1</span></div>
+  <div class="asq-qa-grid asq-mono" style="font-size: 2.0rem; line-height: 1.25;">
+    <div class="asq-q">ways to make $0.00 with <span class="asq-accent">0</span> different coins?</div>
+    <div class="asq-a asq-accent">1</div>
+    <div class="asq-q">ways to make $0.00 with <span class="asq-accent">1</span> different coins?</div>
+    <div class="asq-a asq-accent">1</div>
+    <div class="asq-q">ways to make $0.00 with <span class="asq-accent">2</span> different coins?</div>
+    <div class="asq-a asq-accent">1</div>
+  </div>
   <div class="asq-caption" style="margin-top: 1.6rem;">axiom — all empty sets are the same</div>
 </div>
 

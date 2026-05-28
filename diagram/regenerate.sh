@@ -27,13 +27,15 @@ GENERATORS=(
 
   # Section: I ❤️ Algorithms
   "02:spot-euclid:gen_spot_euclid.py"
-  "03:al-khwarizmi:gen_al_khwarizmi.py"
-  "04:gcd-subtractions:gen_gcd_subtractions.py"
+  # 03 al-khwarizmi → diagram/static/algebra-of-mohammed-ben-musa.png (Wikimedia Commons, PD)
+  # 04 gcd-subtractions → diagram/static/gcd-through-successive-subtractions.svg (Wikimedia Commons, PD)
   "05:banana-bread:gen_banana_bread.py"
   "06:equation:gen_equation.py"
 
   # Section: Every-day algorithms
   "07:spot-maze:gen_spot_maze.py"
+  # 08 fort-bragg → real OSM data cached in diagram/static/fort-bragg-streets.json
+  #                (Overpass API snapshot; © OpenStreetMap contributors, ODbL)
   "08:fort-bragg:gen_fort_bragg.py"
 
   # Section: Counting exercises

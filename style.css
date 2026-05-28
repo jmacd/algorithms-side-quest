@@ -34,6 +34,23 @@
 .asq-medium { font-size: 2.4rem; line-height: 1.25; }
 .asq-small  { font-size: 1.5rem; line-height: 1.3;  }
 
+/* Two-column "Q? A" grid: question right-aligned in the first column,
+ * answer left-aligned in the second.  Use when the question text varies
+ * in width between rows (singular/plural toggle, etc.) — a single-line
+ * "Q   A" layout will wrap the answer to a new line only on the wider
+ * rows, producing the ragged look the deck must avoid.  The grid is
+ * centred within its parent (typically `.asq-stage`) and never wraps. */
+.asq-qa-grid {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  column-gap: 1.4em;
+  row-gap: 0.5em;
+  justify-content: center;
+  align-items: baseline;
+}
+.asq-qa-grid > .asq-q { text-align: right;  white-space: nowrap; }
+.asq-qa-grid > .asq-a { text-align: left;   white-space: nowrap; }
+
 /* Every content slide places its sparing subject in a flex container
  * that centres both axes on pure white.  The 2rem bottom inset leaves
  * room for the global footer (section name · P / N). */
@@ -107,6 +124,19 @@
 .asq-figure      { display: block; margin: 0 auto; max-height: 78vh; max-width: 92vw; }
 .asq-figure-tall { display: block; margin: 0 auto; max-height: 82vh; max-width: 90vw; }
 .asq-figure-half { display: block; margin: 0 auto; max-height: 52vh; max-width: 90vw; }
+
+/* Credit line for externally-sourced images (Wikimedia Commons,
+ * etc.).  Sits directly below the figure, small and unobtrusive, but
+ * legible.  Use for every image under `diagram/static/`. */
+.asq-credit {
+  font-size: 1.0rem;
+  line-height: 1.35;
+  color: #555;
+  font-style: italic;
+  text-align: center;
+  max-width: 80vw;
+  margin: 0.4rem auto 0;
+}
 
 /* Code: monospaced literal on the same white canvas — no panel, no
  * tint.  The block itself is centred; its internal text retains its

@@ -212,9 +212,17 @@ Problem: cover the entire lawn with a mower
 Algorithm: depends!
 
 ¶ Count the houses in town
-(Show a street map of Fort Bragg, CA)
+
+(Show a street map of Fort Bragg, CA. Pull data from OpenStreetMaps
+for Fort Bragg, CA and render the image (from leaflet, maybe) with
+some _approximate_ path tracing through all the north-south streets in
+westwardsequence then all the east-west streets in northward sequence,
+then render the image with real map and tracedroute; this can be super
+approximate; arrows indicating the path have direction and curves so
+the corner appears w/ the direction of the path)
 
 ¶ Evaluating algorithms
+
 Searching, sorting, routing, counting...
 How much time?
 How much memory?
@@ -534,6 +542,10 @@ be clear that we are computing each cell from the sum of two, it will
 even be clear that for first column and first row how the left/above 
 counts used as the input of the recursion rule are zero, as implied by
 the thatching.)
+
+## Closing
+
+@@@
 
 ## Spot illustrations
 
