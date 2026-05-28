@@ -320,6 +320,19 @@ We say
 
 2^64 = 18,446,744,073,709,551,616
 
+¶ Counting up
+
+(Illustration: create two panels displaying counts in decimal on top
+and binary on the bottom; we will count to 100 at a rate of 0.25s per
+value; the appearance is like an odometer scrolling digits in each 
+place value; the binary and decimal counters in sync with each other
+displaying the current count in base 2 and base 10. 
+
+only one of the rollers changes value at a time, plus overflow; in the
+two displays, rollover will happen at different rates; decimal when we
+turn over every 10 per place, binary when we turn over every 2 per place)
+
+
 ## Change the problem
 
 Computer scientists like to classify problems into groups

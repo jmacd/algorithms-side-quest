@@ -43,6 +43,7 @@ GENERATORS=(
   "10:byte-register:gen_byte_register.py"
   "11:count-256:gen_count_256.py"
   "12:four-byte-register:gen_four_byte_register.py"
+  "29:odometer:gen_odometer.py"
 
   # Section: Change the problem
   "13:spot-coins:gen_spot_coins.py"

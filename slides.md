@@ -237,6 +237,14 @@ section: 'Counting exercises'
 </div>
 
 ---
+section: 'Counting exercises'
+---
+
+<div class="asq-stage">
+  <img class="asq-figure-tall" src="./diagram/out/29-odometer.svg" alt="decimal and binary odometer counting 0 to 100 in sync" />
+</div>
+
+---
 section: 'Change the problem'
 ---
 
