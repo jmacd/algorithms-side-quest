@@ -286,15 +286,19 @@ section: 'Change the problem'
 ---
 
 <div class="asq-stage">
-  <pre class="asq-code">// greatest common divisor of N numbers
-func gcdN(a []int) int {
-    if len(a) &lt; 2 { return a[0] }
-    return gcd2(a[0], gcdN(a[1:]))
-}</pre>
-  <div class="asq-large asq-mono" style="margin-top: 1.6rem;">
-    <span class="asq-accent">gcd</span>(5, 10, 25) = 5
+  <div class="asq-mono" style="font-size: 3.6rem; font-weight: 700; white-space: nowrap;">
+    <span class="asq-accent">gcd</span>(5, 10, 25, 100) = 5
   </div>
-  <div class="asq-medium">$1.00 in { 5, 10, 25 }    ⇔    $0.20 in { 1, 2, 5 }</div>
+  <div class="asq-mono" style="font-size: 2.2rem; margin-top: 1.6rem; line-height: 1.5; text-align: center;">
+    $1.00 made from {5¢, 10¢, 25¢}<br/>
+    <span class="asq-accent" style="font-size: 2.6rem;">⇔</span><br/>
+    $0.20 made from {1¢, 2¢, 5¢}
+  </div>
+  <pre class="asq-code" style="margin-top: 1.8rem;">// greatest common divisor of N numbers
+func gcdN(a ...int) int {
+    if len(a) &lt; 2 { return a[0] }
+    return gcd2(a[0], gcdN(a[1:]...))
+}</pre>
 </div>
 
 ---
@@ -414,6 +418,14 @@ section: 'Counting from zero'
 ---
 
 <div class="asq-stage">
+  <img class="asq-figure-tall" src="./diagram/out/20-recursion-two-row-filled.svg" alt="recursion relation with sum N+N' filled in (full frame)" />
+</div>
+
+---
+section: 'Counting from zero'
+---
+
+<div class="asq-stage">
   <img class="asq-figure-tall" src="./diagram/out/19-dp-diagram.svg" alt="3-row × 21-column DP grid with coloured arrows (reprise)" />
 </div>
 
@@ -422,6 +434,7 @@ section: 'Counting from zero'
 ---
 
 <div class="asq-stage">
+  <div class="asq-medium">Path iteration</div>
   <div class="asq-small asq-accent asq-smallcaps">coin order &nbsp;·&nbsp; 5¢ → 2¢ → 1¢</div>
   <img class="asq-figure-half" src="./diagram/out/21-paths-521.svg" alt="29 dynamic-programming paths through a 3×21 grid, biggest coin first" style="max-height: 64vh;" />
 </div>
@@ -431,6 +444,7 @@ section: 'Counting from zero'
 ---
 
 <div class="asq-stage">
+  <div class="asq-medium">Path iteration</div>
   <div class="asq-small asq-accent asq-smallcaps">coin order &nbsp;·&nbsp; 1¢ → 2¢ → 5¢</div>
   <img class="asq-figure-half" src="./diagram/out/22-paths-125.svg" alt="29 dynamic-programming paths through a 3×21 grid, smallest coin first" style="max-height: 64vh;" />
 </div>
@@ -440,6 +454,7 @@ section: 'Counting from zero'
 ---
 
 <div class="asq-stage">
+  <div class="asq-medium">Counting paths</div>
   <div class="asq-small asq-accent asq-smallcaps">coin order &nbsp;·&nbsp; 5¢ → 2¢ → 1¢</div>
   <img class="asq-figure-half" src="./diagram/out/23-dpanim-521.svg" alt="60-frame DP table fill-in animation, biggest coin first" style="max-height: 64vh;" />
 </div>
@@ -449,6 +464,76 @@ section: 'Counting from zero'
 ---
 
 <div class="asq-stage">
+  <div class="asq-medium">Counting paths</div>
   <div class="asq-small asq-accent asq-smallcaps">coin order &nbsp;·&nbsp; 1¢ → 2¢ → 5¢</div>
   <img class="asq-figure-half" src="./diagram/out/24-dpanim-125.svg" alt="60-frame DP table fill-in animation, smallest coin first" style="max-height: 64vh;" />
+</div>
+
+---
+section: 'Counting from zero'
+---
+
+<div class="asq-stage">
+  <div class="asq-large">Counting-change family</div>
+  <div class="asq-medium" style="margin-top: 2rem;">same algorithm, different problem</div>
+  <div class="asq-medium" style="margin-top: 1.4rem;">compute <span class="asq-accent">similarity</span></div>
+  <div class="asq-small asq-accent asq-smallcaps">autocomplete &nbsp;·&nbsp; DNA analysis</div>
+  <div class="asq-medium" style="margin-top: 1.4rem;">solve the <span class="asq-accent">shortest-edit</span> problem</div>
+</div>
+
+---
+section: 'Art and Science'
+---
+
+<div class="asq-section-title">Art and Science</div>
+<div class="asq-section-spot">
+  <img src="./diagram/out/25-spot-painter.svg" alt="painter on a ladder sketching lines on a wall" />
+</div>
+
+---
+section: 'Art and Science'
+---
+
+<div class="asq-stage">
+  <div class="asq-large">Sol LeWitt</div>
+  <div class="asq-small asq-accent asq-smallcaps">1928 – 2007 &nbsp;·&nbsp; conceptual art</div>
+  <img class="asq-figure-half" src="./diagram/out/26-lewitt-wall.svg" alt="LeWitt-style wall drawing in four panels, each one direction of lines" style="max-height: 52vh;" />
+  <div class="asq-medium">wall-drawing <span class="asq-accent">specifications</span>, installed by others &mdash; "as if by machine"</div>
+</div>
+
+---
+section: 'Art and Science'
+---
+
+<div class="asq-stage">
+  <div class="asq-large">Donald Knuth</div>
+  <div class="asq-small asq-accent asq-smallcaps">b. 1938 &nbsp;·&nbsp; <em>The Art of Computer Programming</em></div>
+  <img src="./diagram/static/knuth-quadratic.svg" alt="rendered math: 'The quadratic formula is' followed by (-b ± √(b² − 4ac)) / 2a" style="display: block; margin: 1.8rem auto; max-height: 36vh; max-width: 80%;" />
+  <div class="asq-medium"><span class="asq-accent">literate programming</span> &mdash; formal and informal text, machine-executable and human-readable</div>
+  <div class="asq-credit" style="margin-top: 0.6rem;">"Algorithm" illustration, Wikipedia &mdash; public-domain math rendering</div>
+</div>
+
+---
+section: 'Art and Science'
+---
+
+<div class="asq-stage">
+  <div class="asq-large">Made with AI</div>
+  <div class="asq-medium" style="margin-top: 1.8rem;">LeWitt's idea was to <span class="asq-accent">specify art</span> so the artifact could be made without skill.</div>
+  <div class="asq-medium" style="margin-top: 1.2rem;">Knuth's idea was that computer programs made with <span class="asq-accent">only skill</span> are not art.</div>
+  <div class="asq-medium" style="margin-top: 2.0rem;">I wrote a specification for these slides &mdash;</div>
+  <div class="asq-medium">a very-skilled, lifeless artist made them</div>
+  <div class="asq-small asq-mono" style="margin-top: 1.6rem;">
+    <a href="https://github.com/jmacd/algorithms-side-quest/blob/main/README.md">github.com/jmacd/algorithms-side-quest</a>
+  </div>
+</div>
+
+---
+section: 'Art and Science'
+---
+
+<div class="asq-stage">
+  <div class="asq-large">About the title</div>
+  <div class="asq-medium" style="margin-top: 0.8rem;">video games &nbsp;&middot;&nbsp; so many algorithms</div>
+  <img class="asq-figure-half" src="./diagram/out/28-about-title.svg" alt="3D rendering setup: camera, view frustum, teapot in scene, bee in flight" style="max-height: 56vh;" />
 </div>

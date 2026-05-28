@@ -10,13 +10,13 @@
 > The latest installation of this work can be viewed
 > [here](https://jmacd.github.io/algorithms-side-quest).
 
-## Conceptual literary
+## Conceptual literacy
 
 > When an artist uses a conceptual form of art, it means that all of
 > the planning and decisions are made beforehand and the execution is a
 > perfunctory affair.  The idea becomes a machine that makes the art.
 >
-> sol dewitt, ["paragraphs on conceptual art", 1967](https://monoskop.org/images/3/3d/LeWitt_Sol_1967_1999_Paragraphs_on_Conceptual_Art.pdf)
+> Sol LeWitt, ["paragraphs on conceptual art", 1967](https://monoskop.org/images/3/3d/LeWitt_Sol_1967_1999_Paragraphs_on_Conceptual_Art.pdf)
 
 > He or she strives for a program that is comprehensible because its
 > concepts have been introduced in an order that is best for human
@@ -363,23 +363,27 @@ func gcd2(a, b int) int {
 
 This is a recursive algorithm.
 
-¶ Without pennies
+¶ Reduce the counting-change problem
 
 The counting change problem in our case has a common divisor 5.
 
 ```
-// Compute the greatest common divisor of N numbers.
-func gcdN(a []int) int {
-	if len(a) < 2 {
-		return a[0]
-	}
-	return gcd2(a[0], gcdN(a[1:]))
-}
+gcdN(5, 10, 25, 100) = 5
 ```
 
 Counting $1.00 with 5, 10, and 25 coins 
 equals
 counting $0.20 with 1, 2, and 5 cent coins.
+
+```
+// Compute the greatest common divisor of N numbers.
+func gcdN(a ...int) int {
+	if len(a) < 2 {
+		return a[0]
+	}
+	return gcd2(a[0], gcdN(a[1:]...))
+}
+```
 
 ## Counting from zero
 
@@ -543,9 +547,56 @@ even be clear that for first column and first row how the left/above
 counts used as the input of the recursion rule are zero, as implied by
 the thatching.)
 
-## Closing
+¶ Counting-change family
 
-@@@
+The algorithm you just saw is part of a family. You'll find it used to
+compute similarity (e.g., for autocomplete, DNA analysis) or solving the
+"shortest edit" problem.
+
+## Art and Science
+
+In which we explain the connection between LeWitt and Knuth.
+
+¶ Conceptual art
+
+Sol LeWitt: a famous artist of the conceptual art movement. He
+created a series of "wall drawings" specifications, describing how to
+create the woro for others to install as if "by machine".
+
+(Illustration: create a geometric wall drawing with nested cat
+outlines, small to large filling the frame rainbow colors red/outside
+through purple/inside)
+
+¶ The Art of Computer Programming
+
+Donald Knuth: a famous computer scientist known for a multi-volume
+book _The Art of Computer Programming_ and a practice called "literate
+programming" which advocated for a mix of formal and informal text,
+computer programs that were both machine executable and human
+readable.
+
+(Illustration: 
+https://wikimedia.org/api/rest_v1/media/math/render/svg/734c8b4106dfaf8777a03947a3245e9504cda5b5
+)
+
+¶ Made with AI
+
+LeWitt's ideas was to specify the art well so the artifact can be
+made without skill.
+
+Knuth's idea was that computer programs made with only skill are not
+art.
+
+I wrote a specification for these slides, gave them to a very-skilled
+and lifeless artist to create. (Link to this presentation's source https://github.com/jmacd/algorithms-side-quest/blob/main/README.md)
+
+¶ About the title
+
+Video games. So many algorithms.
+
+(Illustration: a 3D rendering setup with camera, angle of view, and
+frustrum with a 3D penguin riding a bicycle in the 3D projection, and
+also one of those bees from the title slide.)
 
 ## Spot illustrations
 
@@ -573,37 +624,5 @@ Counting from zero: zoom in on a dynamic programming problem, the grid
 with an arrow from (x-1,y) to (x,y) and second arrow from (x,y-1) to
 (x,y).
 
-## Mechanics
-
-This section is service material, not part of the essay. The agent
-may update it when build commands change.
-
-Prerequisites: Node.js >= 20.19, Python 3.
-
-```bash
-# 1. Install Slidev deps (only needed once, or after package.json changes)
-npm install
-
-# 2. Regenerate every SVG from its Python generator
-./diagram/regenerate.sh
-
-# 3. Start the Slidev dev server (hot-reloads on edits to slides.md)
-npm run slides
-```
-
-Then open http://localhost:3030 in your browser. Presenter mode:
-http://localhost:3030/presenter.
-
-Other commands:
-
-```bash
-npm run build    # static SPA into dist/
-npm run export   # export to PDF (requires Playwright: npx playwright install chromium)
-```
-
-### Publishing
-
-The `Deploy Slides to GitHub Pages` workflow runs on every push to
-`main` and on manual dispatch. Enable **Settings → Pages → Source:
-GitHub Actions** once in the repository for the first deploy to
-succeed.
+Art and Science: painter on a ladder with art materials sketching 
+lines on the wall.

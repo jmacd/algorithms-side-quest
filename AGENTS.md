@@ -470,3 +470,37 @@ on every push to `main`. First-time setup: in GitHub, set
 | Local preview (dev server)    | `npm run slides`                                          |
 | Export PDF                    | `npm run export`                                          |
 | Install deps (one-time)       | `npm install`                                             |
+
+---
+
+## Mechanics
+
+Prerequisites: Node.js >= 20.19, Python 3.
+
+```bash
+# 1. Install Slidev deps (only needed once, or after package.json changes)
+npm install
+
+# 2. Regenerate every SVG from its Python generator
+./diagram/regenerate.sh
+
+# 3. Start the Slidev dev server (hot-reloads on edits to slides.md)
+npm run slides
+```
+
+Then open http://localhost:3030 in your browser. Presenter mode:
+http://localhost:3030/presenter.
+
+Other commands:
+
+```bash
+npm run build    # static SPA into dist/
+npm run export   # export to PDF (requires Playwright: npx playwright install chromium)
+```
+
+### Publishing
+
+The `Deploy Slides to GitHub Pages` workflow runs on every push to
+`main` and on manual dispatch. Enable **Settings → Pages → Source:
+GitHub Actions** once in the repository for the first deploy to
+succeed.

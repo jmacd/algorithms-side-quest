@@ -59,6 +59,13 @@ GENERATORS=(
   "22:paths-125:gen_paths_125.py"
   "23:dpanim-521:gen_dpanim_521.py"
   "24:dpanim-125:gen_dpanim_125.py"
+
+  # Section: Art and Science
+  "25:spot-painter:gen_spot_painter.py"
+  "26:lewitt-wall:gen_lewitt_wall.py"
+  # 27 knuth-quadratic → diagram/static/knuth-quadratic.svg
+  #                     (Wikipedia math renderer output, PD math rendering)
+  "28:about-title:gen_about_title.py"
 )
 
 fail=0
