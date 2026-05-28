@@ -1,0 +1,815 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" preserveAspectRatio="xMidYMid meet">
+<defs><marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#fdb913"/></marker><pattern id="thatch" patternUnits="userSpaceOnUse" width="14" height="14" patternTransform="rotate(45)"><rect width="14" height="14" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="14" stroke="#9a9a9a" stroke-width="2"/></pattern></defs>
+<rect width="1600" height="620" fill="#ffffff"/>
+<rect x="0" y="0" width="1600" height="80" fill="url(#thatch)"/>
+<rect x="0" y="80" width="158.0" height="330" fill="url(#thatch)"/>
+<rect x="158.0" y="80" width="64" height="110" fill="#fce3a4" stroke="#000000" stroke-width="2" rx="0"/>
+<text x="190.0" y="144.33333333333334" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="28" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">1</text>
+<rect x="222.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="286.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="350.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="414.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="478.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="542.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="606.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="670.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="734.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="798.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="862.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="926.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="990.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1054.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1118.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1182.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1246.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1310.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1374.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1438.0" y="80" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="158.0" y="190" width="64" height="110" fill="#fce3a4" stroke="#000000" stroke-width="2" rx="0"/>
+<text x="190.0" y="254.33333333333334" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="28" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">1</text>
+<rect x="222.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="286.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="350.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="414.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="478.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="542.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="606.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="670.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="734.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="798.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="862.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="926.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="990.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1054.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1118.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1182.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1246.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1310.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1374.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1438.0" y="190" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="158.0" y="300" width="64" height="110" fill="#fce3a4" stroke="#000000" stroke-width="2" rx="0"/>
+<text x="190.0" y="364.3333333333333" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="28" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">1</text>
+<rect x="222.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="286.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="350.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="414.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="478.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="542.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="606.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="670.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="734.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="798.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="862.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="926.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="990.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1054.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1118.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1182.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1246.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1310.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1374.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="1438.0" y="300" width="64" height="110" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<text x="190.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">0</text>
+<text x="254.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">1</text>
+<text x="318.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">2</text>
+<text x="382.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">3</text>
+<text x="446.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">4</text>
+<text x="510.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">5</text>
+<text x="574.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">6</text>
+<text x="638.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">7</text>
+<text x="702.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">8</text>
+<text x="766.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">9</text>
+<text x="830.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">10</text>
+<text x="894.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">11</text>
+<text x="958.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">12</text>
+<text x="1022.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">13</text>
+<text x="1086.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">14</text>
+<text x="1150.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">15</text>
+<text x="1214.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">16</text>
+<text x="1278.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">17</text>
+<text x="1342.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">18</text>
+<text x="1406.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">19</text>
+<text x="1470.0" y="62" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="20" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">20</text>
+<text x="136.0" y="146.33333333333334" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#000000" text-anchor="end" font-weight="normal" font-style="normal">5¢</text>
+<text x="136.0" y="256.3333333333333" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#000000" text-anchor="end" font-weight="normal" font-style="normal">2¢</text>
+<text x="136.0" y="366.3333333333333" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#000000" text-anchor="end" font-weight="normal" font-style="normal">1¢</text>
+<g opacity="1">
+<text x="254.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+</g>
+<g opacity="0">
+<rect x="222.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="254.0" y1="36.0" x2="254.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 114.0,135.0 Q 174.0,181.0 234.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 1  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 1 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.01667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="318.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.01667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="286.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="318.0" y1="36.0" x2="318.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 114.0,135.0 Q 206.0,181.0 298.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 2  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 2 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.01667;0.03333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="382.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.03333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="350.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="382.0" y1="36.0" x2="382.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 114.0,135.0 Q 238.0,181.0 362.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 3  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 3 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.03333;0.05000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="446.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.05000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="414.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="446.0" y1="36.0" x2="446.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 114.0,135.0 Q 270.0,181.0 426.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 4  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 4 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.05000;0.06667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="510.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.06667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="478.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="510.0" y1="36.0" x2="510.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 210.0,135.0 Q 350.0,181.0 490.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 5  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 5 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.06667;0.08333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="574.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.08333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="542.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="574.0" y1="36.0" x2="574.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 274.0,135.0 Q 414.0,181.0 554.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 6  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 6 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.08333;0.10000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="638.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.10000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="606.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="638.0" y1="36.0" x2="638.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 338.0,135.0 Q 478.0,181.0 618.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 7  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 7 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.10000;0.11667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="702.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.11667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="670.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="702.0" y1="36.0" x2="702.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 402.0,135.0 Q 542.0,181.0 682.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 8  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 8 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.11667;0.13333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="766.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.13333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="734.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="766.0" y1="36.0" x2="766.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 466.0,135.0 Q 606.0,181.0 746.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 9  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 9 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.13333;0.15000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="830.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.15000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="798.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="830.0" y1="36.0" x2="830.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 530.0,135.0 Q 670.0,181.0 810.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 10  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 10 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.15000;0.16667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="894.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.16667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="862.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="894.0" y1="36.0" x2="894.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 594.0,135.0 Q 734.0,181.0 874.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 11  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 11 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.16667;0.18333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="958.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.18333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="926.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="958.0" y1="36.0" x2="958.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 658.0,135.0 Q 798.0,181.0 938.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 12  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 12 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.18333;0.20000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1022.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.20000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="990.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1022.0" y1="36.0" x2="1022.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 722.0,135.0 Q 862.0,181.0 1002.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 13  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 13 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.20000;0.21667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1086.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.21667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1054.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1086.0" y1="36.0" x2="1086.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 786.0,135.0 Q 926.0,181.0 1066.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 14  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 14 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.21667;0.23333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1150.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.23333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1118.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1150.0" y1="36.0" x2="1150.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 850.0,135.0 Q 990.0,181.0 1130.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 15  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 15 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.23333;0.25000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1214.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.25000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1182.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1214.0" y1="36.0" x2="1214.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 914.0,135.0 Q 1054.0,181.0 1194.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 16  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 16 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.25000;0.26667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1278.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.26667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1246.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1278.0" y1="36.0" x2="1278.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 978.0,135.0 Q 1118.0,181.0 1258.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 17  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 17 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.26667;0.28333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1342.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.28333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1310.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1342.0" y1="36.0" x2="1342.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1042.0,135.0 Q 1182.0,181.0 1322.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 18  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 18 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.28333;0.30000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1406.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.30000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1374.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1406.0" y1="36.0" x2="1406.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1106.0,135.0 Q 1246.0,181.0 1386.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 19  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 19 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.30000;0.31667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1470.0" y="145.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.31667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1438.0" y="80.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1470.0" y1="36.0" x2="1470.0" y2="92.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1170.0,135.0 Q 1310.0,181.0 1450.0,135.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 1  col 20  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 20 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.31667;0.33333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="254.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.33333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="222.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="254.0" y1="151.0" x2="254.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 114.0,245.0 Q 174.0,267.0 234.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 1  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 21 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.33333;0.35000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="318.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.35000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="286.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="318.0" y1="151.0" x2="318.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 210.0,245.0 Q 254.0,267.0 298.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 2  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 22 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.35000;0.36667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="382.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">0</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.36667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="350.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="382.0" y1="151.0" x2="382.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 274.0,245.0 Q 318.0,267.0 362.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 3  :  above 0  +  left 0  =  0</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 23 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.36667;0.38333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="446.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.38333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="414.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="446.0" y1="151.0" x2="446.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 338.0,245.0 Q 382.0,267.0 426.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 4  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 24 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.38333;0.40000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="510.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.40000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="478.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="510.0" y1="151.0" x2="510.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 402.0,245.0 Q 446.0,267.0 490.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 5  :  above 1  +  left 0  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 25 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.40000;0.41667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="574.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.41667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="542.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="574.0" y1="151.0" x2="574.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 466.0,245.0 Q 510.0,267.0 554.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 6  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 26 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.41667;0.43333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="638.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.43333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="606.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="638.0" y1="151.0" x2="638.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 530.0,245.0 Q 574.0,267.0 618.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 7  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 27 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.43333;0.45000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="702.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.45000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="670.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="702.0" y1="151.0" x2="702.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 594.0,245.0 Q 638.0,267.0 682.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 8  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 28 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.45000;0.46667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="766.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.46667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="734.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="766.0" y1="151.0" x2="766.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 658.0,245.0 Q 702.0,267.0 746.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 9  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 29 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.46667;0.48333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="830.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">2</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.48333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="798.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="830.0" y1="151.0" x2="830.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 722.0,245.0 Q 766.0,267.0 810.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 10  :  above 1  +  left 1  =  2</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 30 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.48333;0.50000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="894.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.50000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="862.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="894.0" y1="151.0" x2="894.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 786.0,245.0 Q 830.0,267.0 874.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 11  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 31 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.50000;0.51667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="958.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">2</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.51667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="926.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="958.0" y1="151.0" x2="958.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 850.0,245.0 Q 894.0,267.0 938.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 12  :  above 0  +  left 2  =  2</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 32 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.51667;0.53333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1022.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.53333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="990.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1022.0" y1="151.0" x2="1022.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 914.0,245.0 Q 958.0,267.0 1002.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 13  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 33 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.53333;0.55000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1086.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">2</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.55000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1054.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1086.0" y1="151.0" x2="1086.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 978.0,245.0 Q 1022.0,267.0 1066.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 14  :  above 0  +  left 2  =  2</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 34 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.55000;0.56667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1150.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">2</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.56667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1118.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1150.0" y1="151.0" x2="1150.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1042.0,245.0 Q 1086.0,267.0 1130.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 15  :  above 1  +  left 1  =  2</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 35 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.56667;0.58333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1214.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">2</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.58333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1182.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1214.0" y1="151.0" x2="1214.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1106.0,245.0 Q 1150.0,267.0 1194.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 16  :  above 0  +  left 2  =  2</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 36 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.58333;0.60000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1278.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">2</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.60000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1246.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1278.0" y1="151.0" x2="1278.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1170.0,245.0 Q 1214.0,267.0 1258.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 17  :  above 0  +  left 2  =  2</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 37 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.60000;0.61667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1342.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">2</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.61667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1310.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1342.0" y1="151.0" x2="1342.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1234.0,245.0 Q 1278.0,267.0 1322.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 18  :  above 0  +  left 2  =  2</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 38 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.61667;0.63333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1406.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">2</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.63333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1374.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1406.0" y1="151.0" x2="1406.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1298.0,245.0 Q 1342.0,267.0 1386.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 19  :  above 0  +  left 2  =  2</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 39 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.63333;0.65000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1470.0" y="255.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">3</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.65000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1438.0" y="190.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1470.0" y1="151.0" x2="1470.0" y2="202.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1362.0,245.0 Q 1406.0,267.0 1450.0,245.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 2  col 20  :  above 1  +  left 2  =  3</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 40 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.65000;0.66667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="254.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">1</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.66667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="222.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="254.0" y1="261.0" x2="254.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 210.0,355.0 Q 222.0,369.0 234.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 1  :  above 0  +  left 1  =  1</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 41 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.66667;0.68333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="318.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">2</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.68333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="286.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="318.0" y1="261.0" x2="318.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 274.0,355.0 Q 286.0,369.0 298.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 2  :  above 1  +  left 1  =  2</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 42 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.68333;0.70000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="382.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">2</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.70000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="350.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="382.0" y1="261.0" x2="382.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 338.0,355.0 Q 350.0,369.0 362.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 3  :  above 0  +  left 2  =  2</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 43 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.70000;0.71667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="446.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">3</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.71667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="414.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="446.0" y1="261.0" x2="446.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 402.0,355.0 Q 414.0,369.0 426.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 4  :  above 1  +  left 2  =  3</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 44 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.71667;0.73333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="510.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">4</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.73333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="478.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="510.0" y1="261.0" x2="510.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 466.0,355.0 Q 478.0,369.0 490.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 5  :  above 1  +  left 3  =  4</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 45 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.73333;0.75000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="574.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">5</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.75000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="542.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="574.0" y1="261.0" x2="574.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 530.0,355.0 Q 542.0,369.0 554.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 6  :  above 1  +  left 4  =  5</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 46 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.75000;0.76667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="638.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">6</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.76667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="606.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="638.0" y1="261.0" x2="638.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 594.0,355.0 Q 606.0,369.0 618.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 7  :  above 1  +  left 5  =  6</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 47 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.76667;0.78333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="702.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">7</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.78333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="670.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="702.0" y1="261.0" x2="702.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 658.0,355.0 Q 670.0,369.0 682.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 8  :  above 1  +  left 6  =  7</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 48 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.78333;0.80000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="766.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">8</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.80000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="734.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="766.0" y1="261.0" x2="766.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 722.0,355.0 Q 734.0,369.0 746.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 9  :  above 1  +  left 7  =  8</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 49 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.80000;0.81667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="830.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">10</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.81667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="798.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="830.0" y1="261.0" x2="830.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 786.0,355.0 Q 798.0,369.0 810.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 10  :  above 2  +  left 8  =  10</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 50 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.81667;0.83333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="894.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">11</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.83333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="862.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="894.0" y1="261.0" x2="894.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 850.0,355.0 Q 862.0,369.0 874.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 11  :  above 1  +  left 10  =  11</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 51 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.83333;0.85000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="958.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">13</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.85000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="926.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="958.0" y1="261.0" x2="958.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 914.0,355.0 Q 926.0,369.0 938.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 12  :  above 2  +  left 11  =  13</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 52 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.85000;0.86667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1022.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">14</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.86667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="990.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1022.0" y1="261.0" x2="1022.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 978.0,355.0 Q 990.0,369.0 1002.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 13  :  above 1  +  left 13  =  14</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 53 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.86667;0.88333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1086.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">16</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.88333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1054.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1086.0" y1="261.0" x2="1086.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1042.0,355.0 Q 1054.0,369.0 1066.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 14  :  above 2  +  left 14  =  16</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 54 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.88333;0.90000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1150.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">18</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.90000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1118.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1150.0" y1="261.0" x2="1150.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1106.0,355.0 Q 1118.0,369.0 1130.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 15  :  above 2  +  left 16  =  18</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 55 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.90000;0.91667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1214.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">20</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.91667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1182.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1214.0" y1="261.0" x2="1214.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1170.0,355.0 Q 1182.0,369.0 1194.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 16  :  above 2  +  left 18  =  20</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 56 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.91667;0.93333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1278.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">22</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.93333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1246.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1278.0" y1="261.0" x2="1278.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1234.0,355.0 Q 1246.0,369.0 1258.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 17  :  above 2  +  left 20  =  22</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 57 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.93333;0.95000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1342.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">24</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.95000" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1310.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1342.0" y1="261.0" x2="1342.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1298.0,355.0 Q 1310.0,369.0 1322.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 18  :  above 2  +  left 22  =  24</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 58 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.95000;0.96667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1406.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">26</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.96667" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1374.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1406.0" y1="261.0" x2="1406.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1362.0,355.0 Q 1374.0,369.0 1386.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 19  :  above 2  +  left 24  =  26</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 59 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.96667;0.98333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<text x="1470.0" y="365.7" font-family="'Roboto Mono', monospace" font-size="32" fill="#000000" text-anchor="middle" font-weight="bold">29</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.98333" dur="30s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="1438.0" y="300.0" width="64" height="110" fill="none" stroke="#fdb913" stroke-width="5"/>
+<line x1="1470.0" y1="261.0" x2="1470.0" y2="312.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+<path d="M 1426.0,355.0 Q 1438.0,369.0 1450.0,355.0" stroke="#fdb913" stroke-width="6" stroke-linecap="round" fill="none" marker-end="url(#arrow-gold)"/>
+<text x="800.0" y="470" font-family="'Roboto Mono', monospace" font-size="36" fill="#000000" text-anchor="middle">row 3  col 20  :  above 3  +  left 26  =  29</text>
+<text x="800.0" y="526" font-family="'Roboto Mono', monospace" font-size="30" fill="#fdb913" text-anchor="middle" font-weight="bold">cell 60 / 60</text>
+<animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.98333" dur="30s" repeatCount="indefinite"/>
+</g>
+</svg>

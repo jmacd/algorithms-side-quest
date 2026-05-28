@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><!--
+
+
+   Author:  Yves Arthur Baelde
+
+   Aspect ratio  4/5 = 280/350
+
+--><svg viewBox="-6 0 280 350" width="660" height="825" preserveAspectRatio="xMinYMin"
+ xmlns="http://www.w3.org/2000/svg"><path
+ d="M990 0H-9V990" fill="#fff"/><path fill="#feb"
+ d="M105 53q0-15 15-15H255q15 0 15 15V349H144V228c0-9 16-69-39-84m32-60a54 24 0 1 0 0-1"/><path
+ fill="#cbd" d="M240 30q6 0 6-6V7q0-6-6-6H2q-6 0-6 6m0 335q0 8 6 8H131q6 0 6-8V276q0-6-6-6"/><path
+ fill="#def" d="M-5 116h74q9 0 9 9v56q0 9-9 9H-5"/><g
+
+ fill="none" stroke="#000" stroke-linejoin="round"><path
+ d="M39 273V9m77 66H39m0 165h77V63q0-15 15-15H245q15 0 15 15v279H182V131H149m0 48h93v118H182"/><g
+ stroke="#98a"><path
+ fill="#cff" d="M2 30q-6 0-6-6V9q0-6 6-6H237q6 0 6 6V24q0 6-6 6zm0 317q-6 0-6-6v-66q0-6 6-6H128q6 0 6 6v66q0 6-6 6z"/><path
+ fill="#def" d="M4 165v21h56v-21zm77 30v21h56v-21zm73 29h74v49h-74z"/><path fill="#ecf" d="M154 309v21h74v-21z"/></g><path
+
+ fill="#fdb" stroke="#a53" d="m6 75 33-24 33 24-33 24zm77 56 33-24 33 24-33 24zm66 48 33-24 33 24-33 24z"/><g
+ stroke-width=".7"><path
+ d="m33 180-8-3 8-3m5 3h-8m80 33-8-3 8-3m-3 3h8m65-25-8-3 8-3m3 57-8 3 8 3m0 7-8 3 8 3m0 7-8 3
+  8 3m0 53-8 3 8 3m-3-88h8m0 13h-8m0 13h8m-8 59h8m17 0h5"/><path fill="#000" d="m39 45-3-8q3 8 6 0zm0 78-3-8q3 8
+  6 0zm0 84-3-8q3 8 6 0zm0 56-3-8q3 8 6 0zm0-23 8-3q-8 3 0 6zm59-165-8-3q8 3 0 6zm18 0-8-3q8 3 0 6zm0 157-3-8q3 8
+  6 0zm0-49-3-8q3 8 6 0zm0-85-3-8q3 8 6 0zm0-30-3-8q3 8 6 0zm44-20 8-3q-8 3 0 6zm12 83-8-3q8 3 0 6zm10 18-3-8q3 8
+  6 0zm0 71-3-8q3 8 6 0zm0 71-3-8q3 8 6 0zm0 6 8-3q-8 3 0 6zm31 45-8-3q8 3 0 6zm11-294 8-3q-8 3 0 6zm9 131-8-3q8 3
+  0 6zm9 77-3-8q3 8 6 0zm18 61-3 8q3-8 6 0zm0-120-3 8q3-8 6 0zm0-92-3 8q3-8 6 0z"/></g></g><text
+
+
+ font-family="monospace" font-size="11" x="211" y="171">false<tspan x="45" y="109">true</tspan><tspan
+ text-anchor="end" x="111" y="170">true</tspan><tspan x="191" y="210">true</tspan><tspan
+ x="149" y="124">false</tspan><tspan y="90" x="68">false</tspan></text><g
+
+ font-family='"Liberation Sans", sans-serif' font-size="16"><g
+ font-weight="bold" fill="#070"><text
+ font-size="18" fill="#730" y="90" x="158">l<tspan x="168">o</tspan><tspan
+ x="183">o</tspan><tspan x="198">p</tspan></text><text
+ y="23" x="6">i<tspan x="14">n</tspan><tspan x="27">p</tspan><tspan x="39">u</tspan><tspan
+ x="51">t</tspan><tspan x="62">:</tspan></text><text
+ y="288" x="3">o<tspan x="15">u</tspan><tspan x="27">t</tspan><tspan x="36">p</tspan><tspan x="48">u</tspan><tspan
+ x="60">t</tspan><tspan x="70">:</tspan></text></g><text
+
+ font-family='"Liberation Serif", serif' y="23" x="93">∈<tspan x="111">ℕ</tspan><tspan x="139">a</tspan><tspan
+ x="149">n</tspan><tspan x="159">d</tspan><tspan x="193">∈</tspan><tspan x="211">ℕ</tspan><tspan font-style="italic"
+ x="81">r<tspan x="180">s</tspan><tspan font-size="18" y="288" x="95">d</tspan><tspan y="339" x="28">r</tspan><tspan
+ x="84">s</tspan></tspan><tspan font-size="14" x="3">o<tspan x="12">f</tspan><tspan
+ x="44">a</tspan><tspan x="54">n</tspan><tspan x="64">d</tspan><tspan y="305" x="3">i</tspan><tspan x="9">s</tspan><tspan
+ x="24">t</tspan><tspan x="30">h</tspan><tspan x="38.4">e</tspan><tspan x="57">G</tspan><tspan x="70.5">C</tspan><tspan
+ x="82.5">D</tspan><tspan x="105">o</tspan><tspan x="114">f</tspan><tspan y="322" x="3">t</tspan><tspan x="9">h</tspan><tspan
+ x="17.4">e</tspan><tspan font-weight="bold" x="33">i<tspan
+ x="39">n</tspan><tspan x="48.4">p</tspan><tspan x="57.6">u</tspan><tspan x="66.5">t</tspan></tspan><tspan
+ x="78">v</tspan><tspan x="86">a</tspan><tspan x="94">l</tspan><tspan x="100">u</tspan><tspan x="109">e</tspan><tspan
+ x="118">s</tspan></tspan><tspan font-size="12.6" y="78" x="56">?<tspan x="27.6">z</tspan><tspan
+ x="35">e</tspan><tspan x="42.2">r</tspan><tspan x="48">o</tspan><tspan
+ font-style="italic" x="16">s<tspan y="134" x="93.6">r</tspan></tspan><tspan x="133">?</tspan><tspan x="104.6">z</tspan><tspan
+ x="112">e</tspan><tspan x="119.2">r</tspan><tspan x="125">o</tspan><tspan y="182" x="196">?</tspan><tspan
+ font-style="italic" x="161">r<tspan x="186">s</tspan><tspan
+ y="210" x="121">s</tspan><tspan x="89">d</tspan><tspan y="239" x="162">d</tspan><tspan x="196">s</tspan><tspan
+ y="252" x="162">s</tspan><tspan x="196">r</tspan><tspan y="265" x="162">r</tspan><tspan x="196">d</tspan><tspan
+ y="180" x="44">r</tspan><tspan x="12">d</tspan><tspan y="324" x="162">r</tspan><tspan x="195">r</tspan><tspan
+ x="214">s</tspan><tspan font-size="14" y="144.5" x="26.4">d</tspan></tspan><tspan x="-4">i</tspan><tspan
+ x=".6">n</tspan><tspan x="9">t</tspan><tspan x="14">o</tspan><tspan x="47">t</tspan><tspan x="53">h</tspan><tspan
+ x="61">e</tspan><tspan y="130" x="-2">s</tspan><tspan x="4.8">t</tspan><tspan x="10">o</tspan><tspan x="18">r</tspan><tspan
+ x="25">e</tspan><tspan y="159" x="-2">v</tspan><tspan x="5">a</tspan><tspan x="12">l</tspan><tspan x="17">u</tspan><tspan
+ x="25">e</tspan><tspan x="46">o</tspan><tspan x="54">f</tspan></tspan><tspan
+ font-size="14" font-style="italic" x="65.4">r</tspan></text></g></svg>
