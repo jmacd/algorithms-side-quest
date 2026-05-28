@@ -8,7 +8,7 @@
 > wall drawings.
 >
 > The latest installation of this work can be viewed
-> [here](https://jmacd.github.io/algorithms-side-quest).
+> [here](https://jmacd.github.io/algorithms-side-quest/1).
 
 ## Conceptual literacy
 
