@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="1600" height="1200" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 Z" fill="context-stroke"/>
+  </marker>
+  <marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#fdb913"/>
+  </marker>
+</defs>
+<rect x="510.0" y="460.0" width="220" height="180" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="730.0" y="460.0" width="220" height="180" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="950.0" y="460.0" width="220" height="180" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<text x="1060.0" y="572.6666666666666" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="68" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">N</text>
+<rect x="510.0" y="640.0" width="220" height="180" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<text x="620.0" y="752.6666666666666" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="68" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">N&#x27;</text>
+<rect x="730.0" y="640.0" width="220" height="180" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<rect x="950.0" y="640.0" width="220" height="180" fill="#ffffff" stroke="#000000" stroke-width="2" rx="0"/>
+<text x="620.0" y="432.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="44" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">A&#x27;</text>
+<text x="840.0" y="432.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="44" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">…</text>
+<text x="1060.0" y="432.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="44" fill="#000000" text-anchor="middle" font-weight="normal" font-style="normal">A</text>
+<text x="474.0" y="562.6666666666666" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="38" fill="#000000" text-anchor="end" font-weight="normal" font-style="normal">K coins</text>
+<text x="474.0" y="742.6666666666666" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="38" fill="#000000" text-anchor="end" font-weight="normal" font-style="normal">K+1 coins</text>
+<line x1="686.0" y1="660.0" x2="994.0" y2="660.0" stroke="#fdb913" stroke-width="6" marker-end="url(#arrow)"/>
+<text x="840.0" y="642.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="42" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">+ C</text>
+<text x="800.0" y="1120" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="44" fill="#000000" text-anchor="middle" font-weight="normal" font-style="italic">A&#x27; + C = A</text>
+</svg>

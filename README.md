@@ -71,6 +71,8 @@ centered. Below the title filling the slide, each section will feature
 a spot illustration, a piece of line art as described in the section
 specifications. While the spot illustrations are unrelated to the
 section material, they will be visually similar across sections.
+Section titles and the corresponding spot illustrations appear on 
+the same page, with section title above the illustration.
 
 Within each section, slides have a header of text listed after each
 `¶` symbol.
@@ -104,10 +106,14 @@ the exposition develops. This implies using shared graphic subroutines
 across slides within a section to ensure consistency.
 
 Within a section, the `¶` character signifies a slide, followed by a
-description of the content. Text inside parenthesis indicates an
-illustration or diagram will be inserted. When a URL is included to an
-existing asset, credit the source with "credit:", the name of the site,
-and a link below the image.
+description of the content. Each page should be formatted with large
+text filling the frame; use consistent white background and black text
+unless otherwise specified. 
+
+Text inside parenthesis indicates an illustration or diagram will be
+inserted. When a URL is included to an existing asset, credit the
+source with "credit:", the name of the site, and a link below the
+image.
 
 Certain mathematical expressions are quoted within. Use proper
 mathematical typesetting for this content.

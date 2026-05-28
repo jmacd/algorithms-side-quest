@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="1600" height="1200" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 Z" fill="context-stroke"/>
+  </marker>
+  <marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#fdb913"/>
+  </marker>
+</defs>
+<line x1="360.0" y1="190.0" x2="360.0" y2="1070.0" stroke="#000000" stroke-width="5"/>
+<line x1="360.0" y1="190.0" x2="1240.0" y2="190.0" stroke="#000000" stroke-width="5"/>
+<line x1="457.77777777777777" y1="190.0" x2="457.77777777777777" y2="1070.0" stroke="#000000" stroke-width="1.6"/>
+<line x1="360.0" y1="287.77777777777777" x2="1240.0" y2="287.77777777777777" stroke="#000000" stroke-width="1.6"/>
+<line x1="555.5555555555555" y1="190.0" x2="555.5555555555555" y2="1070.0" stroke="#000000" stroke-width="1.6"/>
+<line x1="360.0" y1="385.55555555555554" x2="1240.0" y2="385.55555555555554" stroke="#000000" stroke-width="1.6"/>
+<line x1="653.3333333333333" y1="190.0" x2="653.3333333333333" y2="1070.0" stroke="#000000" stroke-width="5"/>
+<line x1="360.0" y1="483.3333333333333" x2="1240.0" y2="483.3333333333333" stroke="#000000" stroke-width="5"/>
+<line x1="751.1111111111111" y1="190.0" x2="751.1111111111111" y2="1070.0" stroke="#000000" stroke-width="1.6"/>
+<line x1="360.0" y1="581.1111111111111" x2="1240.0" y2="581.1111111111111" stroke="#000000" stroke-width="1.6"/>
+<line x1="848.8888888888889" y1="190.0" x2="848.8888888888889" y2="1070.0" stroke="#000000" stroke-width="1.6"/>
+<line x1="360.0" y1="678.8888888888889" x2="1240.0" y2="678.8888888888889" stroke="#000000" stroke-width="1.6"/>
+<line x1="946.6666666666666" y1="190.0" x2="946.6666666666666" y2="1070.0" stroke="#000000" stroke-width="5"/>
+<line x1="360.0" y1="776.6666666666666" x2="1240.0" y2="776.6666666666666" stroke="#000000" stroke-width="5"/>
+<line x1="1044.4444444444443" y1="190.0" x2="1044.4444444444443" y2="1070.0" stroke="#000000" stroke-width="1.6"/>
+<line x1="360.0" y1="874.4444444444443" x2="1240.0" y2="874.4444444444443" stroke="#000000" stroke-width="1.6"/>
+<line x1="1142.2222222222222" y1="190.0" x2="1142.2222222222222" y2="1070.0" stroke="#000000" stroke-width="1.6"/>
+<line x1="360.0" y1="972.2222222222222" x2="1240.0" y2="972.2222222222222" stroke="#000000" stroke-width="1.6"/>
+<line x1="1240.0" y1="190.0" x2="1240.0" y2="1070.0" stroke="#000000" stroke-width="5"/>
+<line x1="360.0" y1="1070.0" x2="1240.0" y2="1070.0" stroke="#000000" stroke-width="5"/>
+<rect x="363.0" y="193.0" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="408.8888888888889" y="260.8888888888889" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">5</text>
+<rect x="460.77777777777777" y="193.0" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="506.66666666666663" y="260.8888888888889" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">3</text>
+<rect x="754.1111111111111" y="193.0" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="800.0" y="260.8888888888889" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">7</text>
+<rect x="363.0" y="290.77777777777777" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="408.8888888888889" y="358.66666666666663" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">6</text>
+<rect x="656.3333333333333" y="290.77777777777777" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="702.2222222222222" y="358.66666666666663" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="754.1111111111111" y="290.77777777777777" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="800.0" y="358.66666666666663" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">9</text>
+<rect x="851.8888888888889" y="290.77777777777777" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="897.7777777777778" y="358.66666666666663" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">5</text>
+<rect x="460.77777777777777" y="388.55555555555554" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="506.66666666666663" y="456.44444444444446" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">9</text>
+<rect x="558.5555555555555" y="388.55555555555554" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="604.4444444444445" y="456.44444444444446" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">8</text>
+<rect x="1047.4444444444443" y="388.55555555555554" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="1093.3333333333333" y="456.44444444444446" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">6</text>
+<rect x="363.0" y="486.3333333333333" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="408.8888888888889" y="554.2222222222222" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">8</text>
+<rect x="754.1111111111111" y="486.3333333333333" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="800.0" y="554.2222222222222" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">6</text>
+<rect x="1145.2222222222222" y="486.3333333333333" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="1191.111111111111" y="554.2222222222222" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">3</text>
+<rect x="363.0" y="584.1111111111111" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="408.8888888888889" y="652.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">4</text>
+<rect x="656.3333333333333" y="584.1111111111111" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="702.2222222222222" y="652.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">8</text>
+<rect x="851.8888888888889" y="584.1111111111111" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="897.7777777777778" y="652.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">3</text>
+<rect x="1145.2222222222222" y="584.1111111111111" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="1191.111111111111" y="652.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="363.0" y="681.8888888888889" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="408.8888888888889" y="749.7777777777778" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">7</text>
+<rect x="754.1111111111111" y="681.8888888888889" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="800.0" y="749.7777777777778" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">2</text>
+<rect x="1145.2222222222222" y="681.8888888888889" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="1191.111111111111" y="749.7777777777778" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">6</text>
+<rect x="460.77777777777777" y="779.6666666666666" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="506.66666666666663" y="847.5555555555555" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">6</text>
+<rect x="949.6666666666666" y="779.6666666666666" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="995.5555555555555" y="847.5555555555555" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">2</text>
+<rect x="1047.4444444444443" y="779.6666666666666" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="1093.3333333333333" y="847.5555555555555" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">8</text>
+<rect x="656.3333333333333" y="877.4444444444443" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="702.2222222222222" y="945.3333333333333" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">4</text>
+<rect x="754.1111111111111" y="877.4444444444443" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="800.0" y="945.3333333333333" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="851.8888888888889" y="877.4444444444443" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="897.7777777777778" y="945.3333333333333" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">9</text>
+<rect x="1145.2222222222222" y="877.4444444444443" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="1191.111111111111" y="945.3333333333333" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">5</text>
+<rect x="754.1111111111111" y="975.2222222222222" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="800.0" y="1043.111111111111" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">8</text>
+<rect x="1047.4444444444443" y="975.2222222222222" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="1093.3333333333333" y="1043.111111111111" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">7</text>
+<rect x="1145.2222222222222" y="975.2222222222222" width="91.77777777777777" height="91.77777777777777" fill="#fce3a4" stroke="none" stroke-width="0" rx="0"/>
+<text x="1191.111111111111" y="1043.111111111111" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="60" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">9</text>
+<text x="800.0" y="100" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" fill="#000000" text-anchor="middle" font-weight="normal" font-style="italic">sudoku — partial</text>
+</svg>

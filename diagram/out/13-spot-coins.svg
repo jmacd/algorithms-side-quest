@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="1400" height="800" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 Z" fill="context-stroke"/>
+  </marker>
+  <marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#fdb913"/>
+  </marker>
+</defs>
+<circle cx="760" cy="600" r="100" fill="#fce3a4" stroke="#000000" stroke-width="3"/>
+<circle cx="760" cy="600" r="90" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="760" y="622.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="55.00000000000001" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">25¢</text>
+<circle cx="640" cy="580" r="90" fill="#fdb913" stroke="#000000" stroke-width="3"/>
+<circle cx="640" cy="580" r="80" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="640" y="599.8" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="49.50000000000001" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">10¢</text>
+<circle cx="880" cy="590" r="88" fill="#fdb913" stroke="#000000" stroke-width="3"/>
+<circle cx="880" cy="590" r="78" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="880" y="609.36" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="48.400000000000006" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">10¢</text>
+<circle cx="560" cy="520" r="78" fill="#fce3a4" stroke="#000000" stroke-width="3"/>
+<circle cx="560" cy="520" r="68" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="560" y="537.16" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="42.900000000000006" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">5¢</text>
+<circle cx="740" cy="500" r="82" fill="#fdb913" stroke="#000000" stroke-width="3"/>
+<circle cx="740" cy="500" r="72" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="740" y="518.04" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="45.1" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">25¢</text>
+<circle cx="920" cy="510" r="78" fill="#fce3a4" stroke="#000000" stroke-width="3"/>
+<circle cx="920" cy="510" r="68" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="920" y="527.16" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="42.900000000000006" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1¢</text>
+<circle cx="470" cy="600" r="70" fill="#fdb913" stroke="#000000" stroke-width="3"/>
+<circle cx="470" cy="600" r="60" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="470" y="615.4" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38.5" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1¢</text>
+<circle cx="980" cy="600" r="70" fill="#fce3a4" stroke="#000000" stroke-width="3"/>
+<circle cx="980" cy="600" r="60" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="980" y="615.4" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38.5" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">5¢</text>
+<circle cx="660" cy="430" r="70" fill="#fdb913" stroke="#000000" stroke-width="3"/>
+<circle cx="660" cy="430" r="60" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="660" y="445.4" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38.5" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1¢</text>
+<circle cx="820" cy="410" r="72" fill="#fce3a4" stroke="#000000" stroke-width="3"/>
+<circle cx="820" cy="410" r="62" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="820" y="425.84" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="39.6" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">5¢</text>
+<circle cx="560" cy="380" r="60" fill="#fce3a4" stroke="#000000" stroke-width="3"/>
+<circle cx="560" cy="380" r="50" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="560" y="393.2" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="33.0" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1¢</text>
+<circle cx="720" cy="340" r="66" fill="#fdb913" stroke="#000000" stroke-width="3"/>
+<circle cx="720" cy="340" r="56" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="720" y="354.52" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="36.300000000000004" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">25¢</text>
+<circle cx="880" cy="330" r="62" fill="#fce3a4" stroke="#000000" stroke-width="3"/>
+<circle cx="880" cy="330" r="52" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="880" y="343.64" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="34.1" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">10¢</text>
+<circle cx="770" cy="240" r="56" fill="#fdb913" stroke="#000000" stroke-width="3"/>
+<circle cx="770" cy="240" r="46" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="770" y="252.32" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="30.800000000000004" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">5¢</text>
+</svg>

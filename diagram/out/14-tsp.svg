@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="1600" height="1200" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 Z" fill="context-stroke"/>
+  </marker>
+  <marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#fdb913"/>
+  </marker>
+</defs>
+<line x1="380" y1="280" x2="960" y2="240" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6,8"/>
+<line x1="380" y1="280" x2="1260" y2="600" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6,8"/>
+<line x1="380" y1="280" x2="880" y2="920" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6,8"/>
+<line x1="380" y1="280" x2="360" y2="760" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6,8"/>
+<line x1="960" y1="240" x2="1260" y2="600" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6,8"/>
+<line x1="960" y1="240" x2="880" y2="920" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6,8"/>
+<line x1="960" y1="240" x2="360" y2="760" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6,8"/>
+<line x1="1260" y1="600" x2="880" y2="920" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6,8"/>
+<line x1="1260" y1="600" x2="360" y2="760" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6,8"/>
+<line x1="880" y1="920" x2="360" y2="760" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6,8"/>
+<line x1="380" y1="280" x2="960" y2="240" stroke="#fdb913" stroke-width="8"/>
+<line x1="960" y1="240" x2="1260" y2="600" stroke="#fdb913" stroke-width="8"/>
+<line x1="1260" y1="600" x2="880" y2="920" stroke="#fdb913" stroke-width="8"/>
+<line x1="880" y1="920" x2="360" y2="760" stroke="#fdb913" stroke-width="8"/>
+<line x1="360" y1="760" x2="380" y2="280" stroke="#fdb913" stroke-width="8"/>
+<circle cx="380" cy="280" r="36" fill="#fce3a4" stroke="#000000" stroke-width="3.5"/>
+<text x="380" y="294" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="44" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">A</text>
+<circle cx="960" cy="240" r="36" fill="#fce3a4" stroke="#000000" stroke-width="3.5"/>
+<text x="960" y="254" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="44" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">B</text>
+<circle cx="1260" cy="600" r="36" fill="#fce3a4" stroke="#000000" stroke-width="3.5"/>
+<text x="1260" y="614" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="44" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">C</text>
+<circle cx="880" cy="920" r="36" fill="#fce3a4" stroke="#000000" stroke-width="3.5"/>
+<text x="880" y="934" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="44" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">D</text>
+<circle cx="360" cy="760" r="36" fill="#fce3a4" stroke="#000000" stroke-width="3.5"/>
+<text x="360" y="774" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="44" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">E</text>
+<text x="800.0" y="100" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" fill="#000000" text-anchor="middle" font-weight="normal" font-style="italic">5-city circuit</text>
+</svg>

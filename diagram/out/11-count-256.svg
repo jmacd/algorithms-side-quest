@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="1600" height="1200" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 Z" fill="context-stroke"/>
+  </marker>
+  <marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 Z" fill="#fdb913"/>
+  </marker>
+</defs>
+<text x="800.0" y="160" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="56" fill="#000000" text-anchor="middle" font-weight="normal" font-style="italic">1 byte counts 0 → 255</text>
+<text x="280" y="330" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="120" fill="#000000" text-anchor="end" font-weight="bold" font-style="normal">  0</text>
+<rect x="360" y="260" width="56" height="56" fill="#ffffff" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="388.0" y="302.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">0</text>
+<rect x="421" y="260" width="56" height="56" fill="#ffffff" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="449.0" y="302.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">0</text>
+<rect x="482" y="260" width="56" height="56" fill="#ffffff" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="510.0" y="302.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">0</text>
+<rect x="543" y="260" width="56" height="56" fill="#ffffff" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="571.0" y="302.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">0</text>
+<rect x="604" y="260" width="56" height="56" fill="#ffffff" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="632.0" y="302.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">0</text>
+<rect x="665" y="260" width="56" height="56" fill="#ffffff" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="693.0" y="302.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">0</text>
+<rect x="726" y="260" width="56" height="56" fill="#ffffff" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="754.0" y="302.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">0</text>
+<rect x="787" y="260" width="56" height="56" fill="#ffffff" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="815.0" y="302.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">0</text>
+<line x1="220" y1="346" x2="220" y2="490" stroke="#000000" stroke-width="3"/>
+<polygon points="210,474 230,474 220,490" fill="#000000" stroke="#000000" stroke-width="1"/>
+<text x="280" y="570" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="120" fill="#000000" text-anchor="end" font-weight="bold" font-style="normal">127</text>
+<rect x="360" y="500" width="56" height="56" fill="#ffffff" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="388.0" y="542.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">0</text>
+<rect x="421" y="500" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="449.0" y="542.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="482" y="500" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="510.0" y="542.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="543" y="500" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="571.0" y="542.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="604" y="500" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="632.0" y="542.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="665" y="500" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="693.0" y="542.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="726" y="500" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="754.0" y="542.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="787" y="500" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="815.0" y="542.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<line x1="220" y1="586" x2="220" y2="730" stroke="#000000" stroke-width="3"/>
+<polygon points="210,714 230,714 220,730" fill="#000000" stroke="#000000" stroke-width="1"/>
+<text x="280" y="810" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="120" fill="#000000" text-anchor="end" font-weight="bold" font-style="normal">255</text>
+<rect x="360" y="740" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="388.0" y="782.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="421" y="740" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="449.0" y="782.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="482" y="740" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="510.0" y="782.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="543" y="740" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="571.0" y="782.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="604" y="740" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="632.0" y="782.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="665" y="740" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="693.0" y="782.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="726" y="740" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="754.0" y="782.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<rect x="787" y="740" width="56" height="56" fill="#fdb913" stroke="#000000" stroke-width="2.5" rx="0"/>
+<text x="815.0" y="782.0" font-family="'Roboto Mono', 'Menlo', 'Consolas', monospace" font-size="38" fill="#000000" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+</svg>
