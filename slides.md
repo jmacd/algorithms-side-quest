@@ -427,3 +427,21 @@ section: 'Counting from zero'
   <div class="asq-small asq-accent asq-smallcaps">coin order &nbsp;·&nbsp; 1¢ → 2¢ → 5¢</div>
   <img class="asq-figure-half" src="./diagram/out/22-paths-125.svg" alt="29 dynamic-programming paths through a 3×21 grid, smallest coin first" style="max-height: 64vh;" />
 </div>
+
+---
+section: 'Counting from zero'
+---
+
+<div class="asq-stage">
+  <div class="asq-small asq-accent asq-smallcaps">coin order &nbsp;·&nbsp; 5¢ → 2¢ → 1¢</div>
+  <img class="asq-figure-half" src="./diagram/out/23-dpanim-521.svg" alt="60-frame DP table fill-in animation, biggest coin first" style="max-height: 64vh;" />
+</div>
+
+---
+section: 'Counting from zero'
+---
+
+<div class="asq-stage">
+  <div class="asq-small asq-accent asq-smallcaps">coin order &nbsp;·&nbsp; 1¢ → 2¢ → 5¢</div>
+  <img class="asq-figure-half" src="./diagram/out/24-dpanim-125.svg" alt="60-frame DP table fill-in animation, smallest coin first" style="max-height: 64vh;" />
+</div>

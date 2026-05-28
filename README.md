@@ -522,6 +522,18 @@ func waysToMakeChange(total int, coins []int) int {
 ```
 )
 
+¶ The dynamic program
+
+(Animation: we will generate for the same two of the six permutations
+of coin order the actual cell values as they are filled in row by row, 
+ascending columns in each; similar pace to the preceding two animations;
+starting with all 1s filled in for column 1, begin with row 1 at each 
+cell applying the recursion rule with arrows indicating the source above
+and left of the target cell; we will end with the same result 29 and it will 
+be clear that we are computing each cell from the sum of two, it will 
+even be clear that for first column and first row how the left/above 
+counts used as the input of the recursion rule are zero, as implied by
+the thatching.)
 
 ## Spot illustrations
 

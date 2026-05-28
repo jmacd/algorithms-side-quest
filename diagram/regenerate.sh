@@ -55,6 +55,8 @@ GENERATORS=(
   "20:recursion-two-row-filled:gen_recursion_two_row.py"
   "21:paths-521:gen_paths_521.py"
   "22:paths-125:gen_paths_125.py"
+  "23:dpanim-521:gen_dpanim_521.py"
+  "24:dpanim-125:gen_dpanim_125.py"
 )
 
 fail=0
