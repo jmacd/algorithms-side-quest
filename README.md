@@ -418,7 +418,7 @@ K = number of existing coins
 N = count of ways to make A with K coins
 C = value of a K+1th coin
 
-¶ Recursion relation in words
+¶ Recursion rule in words
 
 As I add the coin C as the next coin,
 say I have N ways to make A with K coins,
@@ -433,7 +433,7 @@ column value N, second row first column value N', an arrow labeled C
 from N' right two cells pointing to second row third column,
 indicating that A'+C = A)
 
-¶ Recursion relation diagram
+¶ Recursion rule diagram
 
 We're counting paths from the top left to the right bottom. This is a
 class of algorithms called "dynamic programming".
@@ -448,16 +448,80 @@ this time 5 cells at a time; this illustrates the dynamic program
 where we count 4 1-cent coins, 3 2-cent coins, and 2 5-cent coins to
 reach 20.)
 
-¶ Recursion relation in words (again)
+¶ Recursion rule in more words
 
-In the row above: count to A without the new coin C is N
-In the row below: count to A' with the new coin C is N'
-With: A'+C = A
-Then: count to A with the new coin is N+N'.
+In the row above: 
+  count to A without the new coin C is N
+In the row below: 
+  count to A' with the new coin C is N'
+With: 
+  A'+C = A
+Then: 
+  count to A with the new coin is N+N'.
 
 (Illustation: similar to two slides back, now we can fill in N' at A'
 in the second row, N at A in the first row, and N+N' at A in the
 second row. Two arrows indicating the parts of the sum.)
+
+¶ Recursion rule
+
+(Repeat illustration from above)
+
+¶ We're path-counting
+
+(Animation: an animation we will generate two of six permutations of
+coin order, the first slide we'll do 5c, 2c, 1c, then 1c, 2c, 5c.  for
+each permutation, we will render a 3 row 21 column grid, with the
+region above and left of the table thatched indicating zero
+possibility. Then using code that derives the total change count,
+enumerate each solution as a path through the grid, i.e., one of
+the dynamic programming solutions. for the exercise at hand we
+expect 29 paths, that can be computed by this program, you can
+modify to print each path and then render as animation.
+
+```golang
+func waysToMakeChange(total int, coins []int) int {
+	// We get the same counts by dividing the GCD
+	common := gcdN(append(coins, total))
+
+	fmt.Println("GCD is", common)
+
+	// divide the gcd from the total
+	total = total / common
+
+	// "dynamic programming" arrays, two of them
+	previous := make([]int, total+1)
+	current  := make([]int, total+1)
+
+	for row := range coins {
+		// this coin value
+		coin := coins[row] / common
+
+		// swap and reset the arrays
+		tmp := previous
+		previous = current
+		current = tmp
+		clear(current)
+		
+		// there is 1 way to make 0
+		current[0] = 1
+
+		for pos := 1; pos <= total; pos++ {
+			current[pos] = previous[pos]
+			if pos >= coin {
+				current[pos] += current[pos-coin]
+			}
+
+			steps += 1
+		}
+	}
+
+	// prints steps=60, total=29
+	return current[total]
+}
+```
+)
+
 
 ## Spot illustrations
 

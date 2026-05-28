@@ -382,10 +382,48 @@ section: 'Counting from zero'
 section: 'Counting from zero'
 ---
 
+<div class="asq-stage" style="gap: 0.7rem;">
+  <div>
+    <div class="asq-small asq-accent asq-smallcaps">in the row above</div>
+    <div class="asq-medium">count to <span class="asq-mono">A</span> without the new coin <span class="asq-mono">C</span> is <span class="asq-mono">N</span></div>
+  </div>
+  <div>
+    <div class="asq-small asq-accent asq-smallcaps">in the row below</div>
+    <div class="asq-medium">count to <span class="asq-mono">A'</span> with the new coin <span class="asq-mono">C</span> is <span class="asq-mono">N'</span></div>
+  </div>
+  <div>
+    <div class="asq-small asq-accent asq-smallcaps">with</div>
+    <div class="asq-medium asq-mono">A' + C = A</div>
+  </div>
+  <div>
+    <div class="asq-small asq-accent asq-smallcaps">then</div>
+    <div class="asq-medium">count to <span class="asq-mono">A</span> with the new coin is <span class="asq-mono">N + N'</span></div>
+  </div>
+  <img class="asq-figure-half" src="./diagram/out/20-recursion-two-row-filled.svg" alt="recursion relation with sum N+N' filled in" style="margin-top: 0.3rem; max-height: 28vh;" />
+</div>
+
+---
+section: 'Counting from zero'
+---
+
 <div class="asq-stage">
-  <div class="asq-medium">above   ·   count to <span class="asq-mono asq-accent">A</span> without <span class="asq-mono asq-accent">C</span> is <span class="asq-mono asq-accent">N</span></div>
-  <div class="asq-medium">below   ·   count to <span class="asq-mono asq-accent">A'</span> with <span class="asq-mono asq-accent">C</span> is <span class="asq-mono asq-accent">N'</span></div>
-  <div class="asq-medium">with   ·   <span class="asq-mono asq-accent">A' + C = A</span></div>
-  <div class="asq-medium">then   ·   count to <span class="asq-mono asq-accent">A</span> with <span class="asq-mono asq-accent">C</span> is <span class="asq-mono asq-accent">N + N'</span></div>
-  <img class="asq-figure-half" src="./diagram/out/20-recursion-two-row-filled.svg" alt="recursion relation with sum N+N' filled in" style="margin-top: 0.4rem;" />
+  <img class="asq-figure-tall" src="./diagram/out/19-dp-diagram.svg" alt="3-row × 21-column DP grid with coloured arrows (reprise)" />
+</div>
+
+---
+section: 'Counting from zero'
+---
+
+<div class="asq-stage">
+  <div class="asq-small asq-accent asq-smallcaps">coin order &nbsp;·&nbsp; 5¢ → 2¢ → 1¢</div>
+  <img class="asq-figure-half" src="./diagram/out/21-paths-521.svg" alt="29 dynamic-programming paths through a 3×21 grid, biggest coin first" style="max-height: 64vh;" />
+</div>
+
+---
+section: 'Counting from zero'
+---
+
+<div class="asq-stage">
+  <div class="asq-small asq-accent asq-smallcaps">coin order &nbsp;·&nbsp; 1¢ → 2¢ → 5¢</div>
+  <img class="asq-figure-half" src="./diagram/out/22-paths-125.svg" alt="29 dynamic-programming paths through a 3×21 grid, smallest coin first" style="max-height: 64vh;" />
 </div>

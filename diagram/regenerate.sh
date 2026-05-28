@@ -53,6 +53,8 @@ GENERATORS=(
   "18:recursion-two-row:gen_recursion_two_row.py"
   "19:dp-diagram:gen_dp_diagram.py"
   "20:recursion-two-row-filled:gen_recursion_two_row.py"
+  "21:paths-521:gen_paths_521.py"
+  "22:paths-125:gen_paths_125.py"
 )
 
 fail=0
