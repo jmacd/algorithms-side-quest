@@ -1,0 +1,131 @@
+/* Global stylesheet for the Algorithms Side Quest deck.
+ *
+ * Auto-loaded by Slidev because it sits next to slides.md.  All visual
+ * rules live here so they apply to every slide (a `<style>` inside
+ * slides.md is Vue-scoped to a single slide, which would silently
+ * undefine CSS variables defined on :root).
+ */
+
+:root {
+  --asq-yellow: #fce3a4;
+  --asq-golden: #fdb913;
+  --asq-ink:    #000000;
+}
+
+/* The slide canvas is always pure white with black ink, per the essay
+ * (§ "Design system": "White background, black text").  !important
+ * defends against the default theme's defaults and any .dark toggling. */
+.slidev-layout {
+  background: #ffffff !important;
+  color:      var(--asq-ink) !important;
+  font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+  padding: 0 !important;
+}
+
+/* Helpers. */
+.asq-mono       { font-family: 'Roboto Mono', ui-monospace, monospace; }
+.asq-smallcaps  { font-variant-caps: small-caps; letter-spacing: 0.06em; }
+.asq-accent     { color: var(--asq-golden); }
+
+/* Type scale.  The essay pins "8 / 16 / 24 rows per slide" for
+ * large/medium/small.  On a 4:3 canvas at ~768px tall, that targets
+ * roughly 80 / 38 / 24 px font sizes. */
+.asq-large  { font-size: 5.0rem; line-height: 1.08; font-weight: 600; }
+.asq-medium { font-size: 2.4rem; line-height: 1.25; }
+.asq-small  { font-size: 1.5rem; line-height: 1.3;  }
+
+/* Every content slide places its sparing subject in a flex container
+ * that centres both axes on pure white.  The 2rem bottom inset leaves
+ * room for the global footer (section name · P / N). */
+.asq-stage {
+  position: absolute;
+  inset: 0 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.4rem;
+  padding: 2rem;
+  z-index: 1;
+}
+
+/* Section interstitial: 64px smallcaps title at y25, spot illustration
+ * filling the area below. */
+.asq-section-title {
+  position: absolute;
+  top: 25%;
+  left: 0; right: 0;
+  text-align: center;
+  font-size: 4rem;                 /* 64px @ 16px base */
+  font-variant-caps: small-caps;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.asq-section-spot {
+  position: absolute;
+  top: 38%;
+  left: 5%;
+  right: 5%;
+  bottom: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.asq-section-spot img,
+.asq-title-spot img {
+  max-width:  100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Title page composition: title block at y20, spot illustration below. */
+.asq-title-block {
+  position: absolute;
+  top: 20%;
+  left: 0; right: 0;
+  text-align: center;
+  transform: translateY(-30%);
+  z-index: 2;
+}
+.asq-title-spot {
+  position: absolute;
+  top: 36%;
+  left: 4%;
+  right: 4%;
+  bottom: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* Figures sit on the white canvas at their natural aspect. */
+.asq-figure      { display: block; margin: 0 auto; max-height: 78vh; max-width: 92vw; }
+.asq-figure-tall { display: block; margin: 0 auto; max-height: 82vh; max-width: 90vw; }
+.asq-figure-half { display: block; margin: 0 auto; max-height: 52vh; max-width: 90vw; }
+
+/* Code: monospaced literal on the same white canvas — no panel, no
+ * tint.  The block itself is centred; its internal text retains its
+ * intrinsic alignment because code is literal content, not body text. */
+.asq-code {
+  font-family: 'Roboto Mono', ui-monospace, monospace;
+  font-size: 1.6rem;
+  line-height: 1.35;
+  white-space: pre;
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  color: var(--asq-ink);
+}
+
+/* Defang the default-theme rules that would otherwise add list bullets,
+ * blockquote panels, link underlines, etc. — the essay says "no bullet
+ * lists" and "white background, black text" throughout. */
+.slidev-layout ul,
+.slidev-layout ol { list-style: none; padding-left: 0; }
+
+.slidev-layout a  { border: none; }

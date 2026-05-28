@@ -56,6 +56,18 @@ Font selections are Roboto for general text and Roboto Mono when
 numbers or source code are present. Large text is sized to fit 8 rows;
 medium text 16 rows; small text 24 rows per slide.
 
+Long lines must fit within the slide canvas at the chosen type
+scale. When a code listing, an equation, or a phrase is too wide to
+fit on one line, break it into shorter stacked lines at natural
+boundaries — a binary operator, the end of a clause, between two
+related facts — rather than letting it run off the right edge or
+wrap mid-token at an awkward point. Code in particular is always
+preformatted: every source line that the essay shows on its own row
+must render on its own row, with no collapsing of whitespace and no
+soft-wrapping. After regenerating, render the deck and visually
+check every slide; any line that still overflows or wraps awkwardly
+must be re-broken, restated, or downsized at the source.
+
 White background, black text. Use `#fce3a4` (yellow) and `#fdb913`
 (golden) for accent colors.
 
@@ -74,11 +86,20 @@ section material, they will be visually similar across sections.
 Section titles and the corresponding spot illustrations appear on 
 the same page, with section title above the illustration.
 
-Within each section, slides have a header of text listed after each
-`¶` symbol.
+The `¶` character is a syntactic marker delimiting slides within a
+section; it means "start a new slide here". The text on the same line
+as the `¶` is the slide's topic, intended as a navigational aid for
+the author and the agent — it is **not** rendered on the slide. Do
+not display the `¶` glyph, a tiny header, a corner label, a page-top
+tag, or any other element derived from the topic line. The slide's
+visible content is whatever is described on the subsequent lines (an
+image, an equation, a code block, a short phrase, etc.).
 
-The main subject of each slide will be sparing and occupy the center
-of the screen. 
+The main subject of each slide is sparing and occupies the center of
+the frame — both horizontally and vertically centered, on a pure
+white background. Never use a dark theme, dark panel, tinted
+background, or left-justified body text; every slide body sits on
+white with content centered.
 
 The presentation is fast paced. Large text, no sentences, no bullet
 lists, no paranthetical remarks.
